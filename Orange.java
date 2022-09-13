@@ -63,5 +63,8 @@ public class Orange {
     public static void main (String[] args){
         //Ecrire ici vos tests
 	System.out.println("premier test Orange");
+	
+	Orange o = new Orange(3,"ITALIE");
+	System.out.println(o);
    }
 }
